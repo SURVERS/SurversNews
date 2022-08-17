@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link type="image/x-icon" href="../ICO/icon.ico" rel="shortcut icon">
+	<link rel="stylesheet" type="text/css" href="../CSS/news.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/toast.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<title>Смена аватарки</title>
+</head>
+<body>
+	<div id="block_editor">
+		<form action="../SCRIPTS/PHP/loadava.php" method="POST" enctype="multipart/form-data">
+			<h2 class="global_textik">Выберите пункт</h2>
+			<input name="filessssss" type="file" name="filesss" id="input__file" class="input input__file" onchange="updateAva();" multiple>
+			<label for="input__file" class="input__file-button">
+			    <img class="input__file-icon" src="../IMAGE/loadfile.png" alt="" width="150"></span>
+			</label>
+		   	<img src="../IMAGE/delavatar.png" class="del_ava_css">
+		   	<h2 class="select_text_ava">Загрузить аватарку</h2>
+		   	<h2 class="select_text_ava">Удалить аватрку</h2>
+	   		<input type="submit" name="" value="Загрузить >>" class="button_select_ava">
+	   	</form>
+	   	<form action="../profile.php">
+	   		<input type="submit" class="button_select_ava" name="" value="Назад <<">
+	   	</form>
+	</div>
+	<script src="../SCRIPTS/jquery-3.6.0.min.js"></script>
+	<script src="../SCRIPTS/toast.min.js"></script>
+	<script src="../SCRIPTS/function.js"></script>
+	<script src="../SCRIPTS/deleteava.js"></script>
+</body>
+</html>

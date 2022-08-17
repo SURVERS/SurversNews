@@ -1,0 +1,50 @@
+#global_block{
+	width: 500px;
+	height: 350px;
+	background: #222222;
+	margin: auto;
+	border: 1px #515151 solid;
+	border-radius: 10px;
+	margin-top: 50px;
+}
+#block_info{
+	margin-left: 200px;
+	margin-top: -45px;
+}
+.global_text{
+	color: white;
+	margin-left: 28px;
+}
+.theme_img{
+	width: 200px;
+	height: 120px;
+	margin-right: 250px;
+	margin-top: -60px;
+	top: 60px;
+	position: relative;
+	border: 1px #515151 solid;
+}
+.info_text_1{
+	color: white;
+	font-size: 15px;
+	position: relative;
+	top: -30px;
+}
+.info_text_2{
+	color: #CCCCCC;
+	font-size: 10px;
+	position: relative;
+	top: -40px;
+}
+.submit_theme{
+	top: -40px;
+	position: relative;
+	border: 0px solid white;
+	width: 150px;
+	height: 30px;
+	border-radius: 7px;
+	cursor: pointer;
+}
+.submit_theme:hover{
+	background: #CCCCCC;
+}

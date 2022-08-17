@@ -1,0 +1,90 @@
+body{
+	background: #141414;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+#global_block{
+	width: 500px;
+	height: 370px;
+	background: #222222;
+	border: #515151 1px solid;
+	border-radius: 7px;
+	margin: auto;
+	margin-top: 30px;
+	opacity: 10;
+}
+#polosa{
+	background: #464646;
+	width: 400px;
+	height: 1px;
+	margin: auto;
+}
+#polosa2{
+	background: #464646;
+	width: 250px;
+	height: 1px;
+	margin: auto;
+	top: 42px;
+	position: relative;
+}
+.text_three{
+	color: white;
+	font-size: 11px;
+	top: 10px;
+	position: relative;
+}
+.input_dialogs{
+	width: 270px;
+	height: 20px;
+	border-radius: 7px;
+	border: 0px white solid;
+	text-align: center;
+	margin-top: 15px;
+}
+.confirm_input_dialog{
+	width: 100px;
+	height: 30px;
+	cursor: pointer;
+	margin-top: 30px;
+}
+.text_input_global{
+	color: white;
+	font-size: 15px;
+}
+.global_text{
+	color: white;
+	font-size: 15px;
+}
+.text_one{
+	color: #CCCCCC;
+	font-size: 12px;
+	left: 30px;
+	top: 50px;
+	margin-top: -45px;
+	position: relative;
+	padding-top: 15px;
+	text-align: left;
+}
+.text_two{
+	color: #EB4C42;
+	margin-top: 16px;
+	left: 50px;
+	top: 20px;
+	position: relative;
+	font-size: 12px;
+	margin-left: 127px;
+	text-align: left;
+	cursor: pointer;
+}
+.save_settings{
+	top: -30px;
+	width: 120px;
+	height: 20px;
+	border: 0px solid white;
+	border-radius: 7px;
+	cursor: pointer;
+	position: relative;
+}
+.save_settings:hover{
+	background: #E4E4E4;
+}

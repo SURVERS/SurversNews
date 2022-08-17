@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link type="image/x-icon" href="../ICO/icon.ico" rel="shortcut icon">
+	<link rel="stylesheet" type="text/css" href="../CSS/news.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/select_theme.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<title>Выбор темы</title>
+</head>
+<body>
+	<div id="global_block">
+		<h4 class="global_text">Выберите тему</h4>
+		<img src="../IMAGE/black_theme.png" class="theme_img">
+		<div id="block_info">
+			<h4 class="info_text_1">Тёмная тема</h4>
+			<h4 class="info_text_2">На всех страницах будет тёмная тема</h4>
+			<form action="../change_themes.php" method="GET">
+				<input type="submit" value="Выбрать" name="select_theme_1" class="submit_theme">
+			</form>
+		</div>
+		<img src="../IMAGE/white_theme.png" class="theme_img">
+		<div id="block_info">
+			<h4 class="info_text_1">Светлая тема</h4>
+			<h4 class="info_text_2">На всех страницах будет светлая тема</h4>
+			<form action="../change_themes.php" method="GET">
+				<input type="submit" value="Выбрать" name="select_theme_2" class="submit_theme">
+			</form>
+		</div>
+	</div>
+</body>
+</html>

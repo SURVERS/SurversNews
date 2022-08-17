@@ -1,0 +1,9 @@
+Greetings, my name is Vladislav, and I have created my second global site "Survers News".
+In this site, you can publish your news, change the theme of the account, login, change the profile picture, and there are settings.
+The version of this site is v1.6
+The code may seem unprofessional, but I'm still new to Web development and want to become a pro.
+
+Communication [VK]: vk.com/vladkorobov
+Contact [TG]: @surversfamily
+
+Enjoy using :3

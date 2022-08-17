@@ -1,0 +1,291 @@
+body{
+	text-align: center;
+	background: #141414;
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+a { text-decoration: none; }
+#shapka{
+	display: block;
+	width: 100%;
+	height: 40px;
+	background: #222222;
+	position: relative;
+}
+#post_news{
+	width: 400px;
+	height: auto;
+	background: #222222;
+	border: 1px #515151 solid;
+	margin: auto;
+	border-radius: 7px;
+	margin-top: 10px;
+}
+#post_news_create{
+	width: 400px;
+	height: 400px;
+	background: #222222;
+	border: 1px #515151 solid;
+	margin: auto;
+	border-radius: 7px;
+	margin-top: 10px;
+	left: 180px;
+	top: -262px;
+	position: relative;
+}
+#profile_block{
+	width: 200px;
+	height: 300px;
+	border-radius: 7px;
+	background: #222222;
+	border: 1px #515151 solid;
+	margin: auto;
+	right: 180px;
+	top: 50px;
+	position: relative;
+}
+#posts{
+	width: 370px;
+	height: auto;
+	margin-left: 15px;
+}
+#block_editor{
+	width: 500px;
+	height: 400px;
+	border-radius: 7px;
+	background: #222222;
+	border: 1px #515151 solid;
+	margin: auto;
+	top: 50px;
+	position: relative;
+}
+#conrole_avatar{
+	background: #222222;
+	width: 170px;
+	height: 20px;
+	margin: auto;
+	top: -580px;
+	right: 180px;
+	position: relative;
+}
+.global_textik{
+	color: white;
+	font-size: 16px;
+}
+.select_type_avatar{
+	width: 147px;
+	height: 147px;
+	padding-right: 40px;
+	top: 10px;
+	pointer-events: none;
+	position: relative;
+}
+.select_type_avatar_2{
+	width: 159px;
+	height: 159px;
+	top: 15px;
+	pointer-events: none;
+	position: relative;
+}
+.name_owner_post{
+	color: white;
+	font-size: 13px;
+}
+.time_owner_post{
+	color: #CCCCCC;
+	font-size: 10px;
+	margin-top: -15px;
+}
+.text_post_owner{
+	color: white;
+	word-wrap: break-all;
+	font-size: 15px;
+	word-break: break-all;
+}
+.conrole_text{
+	color: white;
+	font-size: 10px;
+	top: 3px;
+	cursor: pointer;
+	position: relative;
+}
+.logotype{
+	right: 300px;
+	top: 11px;
+	color: red;
+	cursor: pointer;
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+}
+.enter_account{
+	top: 10px;
+	left: 400px;
+	position: relative;
+	cursor: pointer;
+	color: white;
+}
+.textindex{
+	width: 270px;
+	height: 200px;
+	background: #222222;
+	color: red;
+	border: 0px solid red;
+}
+.text_hi{
+	color: white;
+}
+.textarea_go{
+	resize: none;
+	color: white;
+	width: 360px;
+	height: 300px;
+	background: #222222;
+	border: #222222 0px solid;
+}
+.h1_login{
+	color: white;
+	margin-right: 350px;
+	top: 50px;
+	position: relative;
+}
+.url_color{
+	color: #318ce7;
+}
+.login_png{
+	width: 200px;
+	margin-right: 350px;
+	margin-top: 50px;
+}
+#block_login{
+	width: 300px;
+	height: 330px;
+	background: #222222;
+	margin: auto;
+	border-radius: 10px;
+	margin-top: -350px;
+	left: 300px;
+	position: relative;
+}
+.login_text_global{
+	color: white;
+	margin-top: 0px;
+}
+.input_error{
+	border-radius: 5px;
+	height: 30px;
+	width: 200px;
+	text-align: center;
+	border: 2px red solid;	
+}
+.global_input{
+	border-radius: 5px;
+	height: 30px;
+	width: 200px;
+	text-align: center;
+	border: 0px white solid;
+}
+.button_login{
+	width: 150px;
+	height: 40px;
+	border-radius: 7px;
+	border: 0px white solid;
+	cursor: pointer;
+}
+.button_login:hover{
+	background: #E4E4E4;
+}
+.button_login:active{
+	padding-top: 5px;
+}
+.avatar_css{
+	border-radius: 100%;
+	width: 150px;
+	height: 150px;
+	margin-top: 10px;
+}
+.nickname_profile{
+	color: white;
+	margin-top: 6px;
+}
+.item_profile{
+	color: white;
+	margin-top: -40px;
+	top: 33px;
+	margin-right: 150px;
+	font-size: 20px;
+	color: red;
+	position: relative;
+}
+.text_profile{
+	color: white;
+	top: -21px;
+	margin-left: 50px;
+	text-align: left;
+	cursor: pointer;
+	font-size: 13px;
+	position: relative;
+	white-space: pre;
+}
+.text_profile:hover{
+	color: red;
+}
+.enter_new_post{
+	border: 0px solid white;
+	border-radius: 7px;
+	height: 25px;
+	width: 130px;
+	cursor: pointer;
+	margin-top: 7px;
+}
+.enter_new_post:hover{
+	background: #C4C5C8;
+}
+
+.input__file {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+ 
+.input__file-button-text {
+  line-height: 1;
+  font-size: 13px;
+  cursor: pointer;
+  color: white;
+}
+ 
+.input__file-icon{
+	right: 40px;
+	cursor: pointer;
+	position: relative;
+}
+
+.del_ava_css{
+	width: 167px;
+	height: 167px;
+	top: 5px;
+	left: 47px;
+	cursor: pointer;
+	position: relative;
+}
+
+.select_text_ava{
+	color: white;
+	font-size: 15px;
+	padding-right: 50px;
+	padding-left: 40px;
+	margin: 15px;
+	display: inline-block;
+}
+.button_select_ava{
+	width: 130px;
+	height: 30px;
+	top: 90px;
+	cursor: pointer;
+	float: left;
+	margin-right: 17px;
+	left: 100px;
+	position: relative;
+}
